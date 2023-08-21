@@ -1,6 +1,6 @@
 { pkgs, ...}: 
 let
-  home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-21.11.tar.gz";
+  home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-23.05.tar.gz";
 in
 {
   home = {
@@ -16,7 +16,6 @@ in
     screen
     gtkterm
 
-    python37
     haskell.compiler.ghc902
     cabal-install
 
@@ -40,5 +39,5 @@ in
   # let home manager manage fish
   # for env variables to work
   programs.fish.enable = true;
-  home.stateVersion = "22.11";
+  home.stateVersion = "23.05";
 }
