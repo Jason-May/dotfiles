@@ -1,0 +1,14 @@
+firefox
+discord
+screen
+gtkterm
+haskell.compiler.ghc902
+cabal-install
+cargo
+rustc
+gcc
+vlc
+qbittorrent
+lutris
+blender
+prusa-slicer
