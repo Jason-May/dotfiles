@@ -20,7 +20,7 @@
     blender
     prusa-slicer
     alejandra
-    cowsay
+    owsay
   ];
   imports = [
     ./kitty.nix
