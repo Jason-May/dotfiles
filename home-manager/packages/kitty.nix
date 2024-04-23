@@ -1,5 +1,4 @@
-{ pkgs, ...}: 
-{  
+{pkgs, ...}: {
   programs.kitty = {
     enable = true;
     extraConfig = "
@@ -10,6 +9,6 @@
       remember_window_size no
       initial_window_width 800
       initial_window_height 460
-    ";    
+    ";
   };
 }

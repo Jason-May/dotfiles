@@ -1,5 +1,8 @@
-{ lib, pkgs, ...}: 
 {
+  lib,
+  pkgs,
+  ...
+}: {
   nixpkgs.config.allowUnfree = true;
   home.packages = with pkgs; [
     firefox
@@ -15,8 +18,8 @@
     qbittorrent
     lutris
     blender
-    prusa-slicer  
-    ssh-add
+    prusa-slicer
+    alejandra
   ];
   imports = [
     ./kitty.nix
