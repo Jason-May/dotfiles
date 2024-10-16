@@ -20,6 +20,9 @@
     blender
     prusa-slicer
     alejandra
+    libreoffice-qt
+    hunspell
+    hunspellDicts.en-us-large
   ];
   imports = [
     ./kitty.nix
