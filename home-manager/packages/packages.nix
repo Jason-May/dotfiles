@@ -23,6 +23,16 @@
     libreoffice-qt
     hunspell
     hunspellDicts.en-us-large
+
+    (python311.withPackages (ps:
+      with ps; [
+        numpy # these two are
+        scipy # probably redundant to pandas
+        jupyterlab
+        pandas
+        statsmodels
+        scikitlearn
+      ]))
   ];
   imports = [
     ./kitty.nix
