@@ -1,2 +1,8 @@
+*
+!*/
+!.gitignore
+!home-manager/
+!fish/
+
 VSCodium
 fish/config.fish
